@@ -1,6 +1,5 @@
 # Classes Generator for PHP
-
-----------[ PT-BR ]----------
+## PT-BR:
 Este projeto foi inicialmente criado em 2008 para facilitar e automatizar a geração de código das classes básicas de um sistema em PHP.
 
 Para utilizá-lo, siga os passos:
@@ -9,7 +8,7 @@ Para utilizá-lo, siga os passos:
 
 Para criar o cadastro de um novo 'sistemas' utilize a console do MySQL. Após criado o 'sistema', selecionar o mesmo para a criação das classes.
 
------------[ EN ]------------
+## EN:
 This project was initially created in 2008 to easily and automate the code generation to the basic classes of a PHP system.
 
 To use it, follow the steps:
