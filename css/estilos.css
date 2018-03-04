@@ -1,0 +1,250 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,html,body,blockquote,fieldset,select {
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+html, body {
+	height:100%;
+}
+body,td,a {
+	font-size:13px;
+}
+a {
+	color:#0033CC;
+	text-decoration:underline;
+}
+a:hover {
+	color:#3366FF;
+	text-decoration:none;
+}
+table {
+	empty-cells:show;
+}
+div.clear{
+	clear:both;
+	font-size:0;
+	height:0;
+}
+
+
+.hide {
+	display:none;
+}
+.download {
+	background:transparent url(../imagens/go-down.png) no-repeat scroll right center;
+	padding:5px 35px 5px 0;
+}
+.excluir {
+	background:transparent url(../imagens/excluir.gif) no-repeat scroll right center;
+	padding:5px 30px 5px 0;
+}
+.recriar {
+	background:transparent url(../imagens/reload.gif) no-repeat scroll right center;
+	padding:5px 30px 5px 0;
+}
+
+
+/* MENSAGEM */
+#mensagem .erro {
+	color:#FF0000;
+	font-weight:bold;
+}
+#mensagem .ok {
+	color:#009900;
+	font-weight:bold;
+}
+
+
+/* TOPO */
+#topo {
+	background-image:url(../imagens/bg_topo.gif);
+	margin:0 auto;
+	height:130px;
+	width:768px;
+}
+#topo #topo_menu {
+	color: #888888;
+	position:relative;
+	float:right;
+	top:110px;
+	right:10px;
+}
+#topo #topo_menu li{
+	float:left;
+	list-style:none;
+}
+#topo #topo_menu a {
+	font-weight:bold;
+	text-decoration:none;
+	color:#BB0000;
+}
+#topo #topo_menu a:hover {
+	color:#FF0000;
+	text-decoration:underline;
+}
+
+
+/* TABELA CLASSES */
+#box {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin:0 auto;
+	width:735px;
+}
+#box .box_label_filtro {
+	border-bottom:1px solid #333333;
+	color:#CC0000;
+	float:left;
+	font-size:15px;
+	width:45%;
+}
+#box .box_filtro {
+	float:right;
+}
+
+#tb_classes {
+	background-color:#CCCCCC;
+}
+#tb_classes td,th {
+	padding:6px;
+}
+#tb_classes thead th {
+	background-color:#EEEEEE;
+	padding-left:20px;
+	padding-right:20px;
+}
+#tb_classes .th_classe {
+	padding-left:100px;
+	padding-right:100px;
+}
+#tb_classes tbody {
+	background-color:#FFFFFF;
+}
+
+
+/* LOADING */
+div#loading{
+	padding:2px 8px 4px 8px;
+	background-color:#CC0000;
+	position:absolute;
+	top:5px;
+	right:20px;
+}
+div#loading p{
+	font-family:Tahoma,Trebuchet MS,Arial,Verdana,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	color:#FFFFFF;
+	margin:0;
+}
+@media screen{
+	div#loading{
+		position: fixed;
+	}
+	/* Don't do this at home */
+	* html{
+		overflow-y: hidden;
+	}
+	* html body{
+		overflow-y: auto;
+	}
+	* html div#loading{
+		position: absolute;
+	}
+	/* All done. */
+}
+
+
+/* ATRIBUTOS */
+#conteudo_atributos {
+	margin:0 auto;
+	width:700px;
+}
+
+.atributo table {
+	background-color:#CCCCCC;
+}
+.atributo tbody {
+	background-color:#F0F0F0;
+}
+/*
+.atributo tbody td {
+	padding-left:5px;
+	padding-right:5px;
+}
+*/
+.atr_tipo {
+	width:80px;
+}
+.atr_nome {
+	width:150px;
+}
+.atr_desc {
+	width:150px;
+}
+.atr_coluna {
+	width:150px;
+}
+.atr_check {
+	width:34px;
+}
+.atr_excl {
+	width:45px;
+}
+.atr_mover {
+	width:55px;
+	cursor:move;
+}
+
+
+
+.branco13b {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: bold;
+}
+.preto13b {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+.fonte11 {
+	font-size: 11px;
+}
+.fonte17bold {
+	font-size: 17px;
+	font-weight: bold;
+}
+.azul21b {
+	color: #000099;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.verdebold {
+	color: #008800;
+	font-weight: bold;
+}
+.vermelhobold {
+	color: #FF0000;
+	font-weight: bold;
+}
+.cinzabold {
+	color: #777777;
+	font-weight: bold;
+}
+
+.formulario {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #000000;
+	background-color: #ECB063;
+}
+.botao {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #4E290E;
+	background-color: #ECB063;
+}

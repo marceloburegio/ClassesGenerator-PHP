@@ -1,0 +1,76 @@
+29/02/2016 - v1.6
+-----------------
+ - Habilitado o uso de NameSpace para projetos com o uso do Framework
+
+ - Modificado o retorno dos métodos SET das classes básicas para $this
+
+19/12/2015 - v1.5
+-----------------
+ - Habilitado o suporte a UTF8
+ 
+ - Convertido todos os arquivos para UTF8
+ 
+ - Todas as classes foram regeradas e atualizadas para os novos padrões
+ 
+ - Correção ao excluir um pacote para excluir também os Throws associados
+ 
+ - Habilitado todos os valores padrões no método construtor das classes
+ 
+ - Corrigido bug na exibição de um valor padrão vazio em parâmetros
+
+14/04/2013 - v1.4
+-----------------
+ - Removido todas as tags de fechamento (?>) dos scripts gerados
+ 
+ - Modificado a geração dos repositórios utilizando Prepared Queries
+ 
+ - Atualizado o jQuery para a versão 1.9.1
+ 
+ - Retirado o uso da biblioteca LiveQuery
+ 
+ - Retirado o bug de seleção do combo de tipo ao cadastrar/editar no Chrome
+ 
+ - Corrigido o bug do Loading...
+
+28/05/2011 - v1.3
+-----------------
+ - Corrigido alguns problemas na geração dos Repositórios
+ 
+ - Alterado a permissão das variáveis dos Repositórios para "protected"
+
+10/09/2010 - v1.2
+-----------------
+ - Foram substituidas todas as short-tags '<?=' para '<?php echo'
+
+07/04/2010 - v1.1
+-----------------
+ - Corrigido o bug no tipo de retorno das Interfaces
+
+19/02/2010 - v1.0
+-----------------
+ - Modificado a forma de geração dos repositórios, incluindo o comando "addslashes"
+ 
+ - Corrigido o bug na exclusão de subpacotes
+ 
+ - Corrigido o bug nas descrições da Interface
+
+29/07/2009 - v0.9
+-----------------
+ - Corrigido o bug na descrição do método "Excluir" na geração das classes de "Cadastro"
+ 
+ - Corrigido o bug de alinhamento do nome das classes na listagem geral no IE 6
+ 
+ - Adicionado a função de Editar Classe permitindo a geração de todas as classes novamente
+ 
+ - Adicionado a geração do método "equals" nas classes básicas
+ 
+ - Troca da Engine do banco de dados para InnoDB, permitindo transações nos cadastros
+ 
+09/12/2008 - v0.8
+-----------------
+ - Foi adicionado o comentário "@throws" nos métodos que levantam exceções
+ 
+ - Corrigido um bug na geração da classe de Cadastro onde o método inserir
+   levantava a exceção "JaCadastrada" quando deveria ser "JaCadastrado"
+ 
+ - Foi criado este ChangeLog.txt
